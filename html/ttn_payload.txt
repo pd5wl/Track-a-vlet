@@ -1,0 +1,14 @@
+function Decoder(bytes, port) {
+  var code = bytes[0];
+   var counter = bytes[1];
+   var lat = (bytes[2] + (bytes[3] << 8) + (bytes[4] << 16) + (bytes[5] << 24)) / 100000;
+   var lng = (bytes[6] + (bytes[7] << 8) + (bytes[8] << 16) + (bytes[9] << 24)) / 100000;
+  return {
+    code: code,
+    counter:counter,
+    location: {
+      lat: lat,
+      lng: lng
+    }
+  };
+}
