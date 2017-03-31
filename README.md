@@ -19,20 +19,21 @@ Apache with SSL on Linux
 <u>How to get it working.</u>
 
 <b>Front End / WebUI</b>
-
-Get an SSL website.
-Set the var's in de ttnlora_gpstracker_vars.js and ttnlora_gpstracker_vars.php
-Run mkdir.php, it creates an folder and file with the correct read and wwrite right for your webserver.
-Change your images and icons as pleased. For icons go to google maps API to find the specs.
-
+<ul>
+<li>Get an SSL website.</li>
+<li>Set the var's in de ttnlora_gpstracker_vars.js and ttnlora_gpstracker_vars.php</li>
+<li>Run mkdir.php, it creates an folder and file with the correct read and wwrite right for your webserver.</li>
+<li>Change your images and icons as pleased. For icons go to google maps API to find the specs.</li>
+</ul>
 <b>TTN Console</b>
-
-Make an application. Use the DEVADDR, NWKSKEY & APPSKEYU in the adruino sketch.
-Set the following Payload funstion from ttn_payload.txt in the console.
-Goto integrations, add an HTTPS integration and give the url to your ttnlora_gpstracker.php
-
+<ul>
+<li>Make an application. Use the DEVADDR, NWKSKEY & APPSKEYU in the adruino sketch.</li>
+<li>Set the following Payload funstion from ttn_payload.txt in the console.</li>
+<li>Goto integrations, add an HTTPS integration and give the url to your ttnlora_gpstracker.php</li>
+</ul>
 <b>Arduino</b>
-
-Set the DEVADDR, NWKSKEY & APPSKEYU
-Set the vlet ID (any number between 1 and 255) You kan give is a name in the ttnlora_gpstracker_vars.js file.
-Upload the sketch.
+<ul>
+<li>Set the DEVADDR, NWKSKEY & APPSKEYU</li>
+<li>Set the vlet ID (any number between 1 and 255) You kan give is a name in the ttnlora_gpstracker_vars.js file.</li>
+<li>Upload the sketch.</li>
+</ul>
