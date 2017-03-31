@@ -9,13 +9,13 @@ You'll need the following libraries:
 Basicly it a GPS tracker with an LoRaWan Transmitter.
 
 I have used:
-
-Arduino Uno (Also works on a Mega, not yet tested on an Nano)
-Blox Neo-6M GPS
-Dragino Lora Shield
-And some wires.
-Apache with SSL on Linux
-
+<ul>
+<li>Arduino Uno (Also works on a Mega, not yet tested on an Nano)</li>
+<li>Blox Neo-6M GPS</li>
+<li>Dragino Lora Shield</li>
+<li>Some wires</li>
+<li>Apache with SSL on Linux</li>
+</ul>
 <u>How to get it working.</u>
 
 <b>Front End / WebUI</b>
