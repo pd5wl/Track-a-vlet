@@ -2,10 +2,10 @@
 A GPS tracker based on a Arduino Uno
 
 You'll need the following libraries:
-
-https://github.com/matthijskooijman/arduino-lmic
-http://arduiniana.org/libraries/tinygpsplus/
-
+<ul>
+<li>https://github.com/matthijskooijman/arduino-lmic</li>
+<li>http://arduiniana.org/libraries/tinygpsplus/</li>
+</ul>
 Basicly it a GPS tracker with an LoRaWan Transmitter.
 
 I have used:
