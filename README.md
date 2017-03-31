@@ -19,6 +19,7 @@ Apache with SSL on Linux
 <u>How to get it working.</u>
 
 <b>Front End / WebUI</b>
+
 Get an SSL website.
 Set the var's in de ttnlora_gpstracker_vars.js and ttnlora_gpstracker_vars.php
 Run mkdir.php, it creates an folder and file with the correct read and wwrite right for your webserver.
@@ -31,6 +32,7 @@ Set the following Payload funstion from ttn_payload.txt in the console.
 Goto integrations, add an HTTPS integration and give the url to your ttnlora_gpstracker.php
 
 <b>Arduino</b>
+
 Set the DEVADDR, NWKSKEY & APPSKEYU
 Set the vlet ID (any number between 1 and 255) You kan give is a name in the ttnlora_gpstracker_vars.js file.
 Upload the sketch.
