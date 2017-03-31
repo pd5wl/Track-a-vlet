@@ -14,22 +14,23 @@ Arduino Uno (Also works on a Mega, not yet tested on an Nano)
 Blox Neo-6M GPS
 Dragino Lora Shield
 And some wires.
+Apache with SSL on Linux
 
-#How to get it working.
+<u>How to get it working.</u>
 
-#Front End / WebUI
+<b>Front End / WebUI</b>
 Get an SSL website.
 Set the var's in de ttnlora_gpstracker_vars.js and ttnlora_gpstracker_vars.php
 Run mkdir.php, it creates an folder and file with the correct read and wwrite right for your webserver.
 Change your images and icons as pleased. For icons go to google maps API to find the specs.
 
-#TTN Console
+<b>TTN Console</b>
 
 Make an application. Use the DEVADDR, NWKSKEY & APPSKEYU in the adruino sketch.
 Set the following Payload funstion from ttn_payload.txt in the console.
 Goto integrations, add an HTTPS integration and give the url to your ttnlora_gpstracker.php
 
-#Arduino
+<b>Arduino</b>
 Set the DEVADDR, NWKSKEY & APPSKEYU
 Set the vlet ID (any number between 1 and 255) You kan give is a name in the ttnlora_gpstracker_vars.js file.
 Upload the sketch.
